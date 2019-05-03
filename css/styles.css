@@ -1,0 +1,127 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    font-size: 1.2em;
+}
+header{
+    background-color: #06D6A0; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 6fr 55px 70px 85px 75px;
+    align-content: center;
+}
+
+ul > h3{
+    grid-column: 1;
+    color: white;
+    
+}
+
+nav ul {
+   list-style-type: none;
+   margin:0;
+}
+
+nav ul li {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px
+}
+
+.meow-one {
+    background-color: #26547C;
+    margin: auto 18%;
+    display:flex;
+}
+
+.cat-image{
+    width: 60%;
+}
+
+.cat-title{
+    text-align: center;
+
+}
+.meow-one h1{
+    font-size: 40px;
+    color: white;
+    
+}
+
+.cat-image > img{
+    width:100%;
+}
+
+.cat-body {
+    background-color: #FFD166;
+    margin: auto 18%;
+    padding: 30px 20px;
+}
+
+h3{
+    margin:0;
+    padding-top: 10px;
+}
+
+.meow-products{
+    background-color: #F2F2F2;
+    margin: auto 18%;
+    padding: 10px;
+}
+
+.meow-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+
+.meow-products ul{
+    list-style-type: none;
+}
+
+.meow-grid img{
+    width: 80%;
+    border: 2px solid black;
+}
+
+.meow-end{
+    margin: auto 18%;
+    background-color: #26547C;
+    padding: 10px;
+}
+
+.meow-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.meow-flex h3{
+    color: #EF476F;    
+}
+
+.meow-end p{
+    color:white;
+}
+
+footer{
+    background-color: #06D6A0;
+    padding: 20px;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+  
